@@ -29,9 +29,7 @@ def setup_llm_client():
 
     if choice == "1":
         # OpenAI API
-        api_key = input(
-            "Enter your OpenAI API key: "
-        ).strip()
+        api_key = input("Enter your OpenAI API key: ").strip()
         if not api_key:
             print("❌ No API key provided. Exiting.")
             return None
