@@ -84,7 +84,7 @@ The workspace follows a logical discovery workflow across three main operational
 The **Search Panel** is where you define your research scope and configure the AI engine.
 
 <p align="center">
-  <img src="./docs/img/netmedex_search_panel_v2.jpg" width="800" alt="Search Panel">
+  <img src="./docs/img/netmedex_search_panel_v2.jpg" width="300" alt="Search Panel">
   <br>
   <i>Figure 2: The Search Panel for keyword and natural language querying.</i>
 </p>
@@ -92,13 +92,13 @@ The **Search Panel** is where you define your research scope and configure the A
 Expand **Advanced Settings** to configure your LLM provider. This is a crucial first step for enabling semantic analysis.
 
 <p align="center">
-  <img src="./docs/img/netmedex_advanced_settings_openai.png" width="600" alt="Advanced Settings">
+  <img src="./docs/img/netmedex_advanced_settings_openai.png" width="300" alt="Advanced Settings">
   <br>
   <i>Figure 3: Configuring the AI Engine (OpenAI or Local) in Advanced Settings.</i>
 </p>
 
 <p align="center">
-  <img src="./docs/img/netmedex_advanced_settings_llm_dropdown.png" width="600" alt="LLM Dropdown Selection">
+  <img src="./docs/img/netmedex_advanced_settings_llm_dropdown.png" width="300" alt="LLM Dropdown Selection">
   <br>
   <i>Figure 4: Selecting a specific model for local AI processing via the dropdown menu.</i>
 </p>
@@ -106,28 +106,28 @@ Expand **Advanced Settings** to configure your LLM provider. This is a crucial f
 Users can also upload previously downloaded PubTator format files for re-analysis.
 
 <p align="center">
-  <img src="./docs/img/netmedex_search_Pubtator.png" width="800" alt="PubTator Search">
+  <img src="./docs/img/netmedex_search_Pubtator.png" width="300" alt="PubTator Search">
   <br>
   <i>Figure 5: Uploading PubTator files for re-analysis within the Search Panel.</i>
 </p>
 
 ### 2. Graph & Scaffolding (Structural View)
-The **Graph Panel** visualizes the co-mention/ semantic analyzed network, providing the visualization of search results for your research. Using the shift key to select sub-network, those selected nodes and edges will be highlighted as the base for chat in next step. Users can visualize the network using different layouts and community detection algorithms. Users also can save the selected sub-network to an **[HTML file](https://htmlpreview.github.io/?https://github.com/lsbnb/NetMedEx/blob/main/docs/Diabetes_miRNA.html)** (Try this [Interactive Visualization Example](https://htmlpreview.github.io/?https://github.com/lsbnb/NetMedEx/blob/main/docs/Diabetes_miRNA.html)), original pubtator3 file, or XML for Cytoscape for further analysis. 
+The **Graph Panel** visualizes the co-mention/semantic analysis network, providing a visualization of search results for your research. Using the shift key to select a sub-network, those selected nodes and edges will be highlighted as the base for chat in the next step. Users can visualize the network using various layouts and community-detection algorithms. Users can also save the selected sub-network to an **[HTML file](https://htmlpreview.github.io/?https://github.com/lsbnb/NetMedEx/blob/main/docs/Diabetes_miRNA.html)** (Try this [Interactive Visualization Example](https://htmlpreview.github.io/?https://github.com/lsbnb/NetMedEx/blob/main/docs/Diabetes_miRNA.html)), original pubtator3 file, or XML for Cytoscape for further analysis. 
 
 <p align="center">
-  <img src="./docs/img/netmedex_graph_panel_v2.jpg" width="800" alt="Graph Panel">
+  <img src="./docs/img/netmedex_graph_panel_v2.jpg" width="300" alt="Graph Panel">
   <br>
   <i>Figure 6: Interactive Knowledge Graph showing Bio-Concept connections.</i>
 </p>
 
 <p align="center">
-  <img src="./docs/img/netmedex_graph_panel.png" width="800" alt="Full Graph Panel">
+  <img src="./docs/img/netmedex_graph_panel.png" width="300" alt="Full Graph Panel">
   <br>
   <i>Figure 7: High-resolution view of the Graph Panel interface.</i>There are several options in the top right corner of the graph panel, including layout, community detection, and save. 
 </p>
 
 <p align="center">
-  <img src="./docs/img/netmedex_graph_sarcopenia.png" width="800" alt="Sarcopenia Graph">
+  <img src="./docs/img/netmedex_graph_sarcopenia.png" width="300" alt="Sarcopenia Graph">
   <br>
   <i>Figure 8: Case study: Visualizing the Sarcopenia-related network using NetMedEx to depict the relationships in semantic level between genes, diseases, chemicals, and species.</i>
 </p>
@@ -137,13 +137,13 @@ The **Graph Panel** visualizes the co-mention/ semantic analyzed network, provid
 - **Clusters**: Use the **Community Detection** feature to group related concepts automatically.
 
 <p align="center">
-  <img src="./docs/img/netmedex_graph_community_clusters.png" width="800" alt="Community Clusters">
+  <img src="./docs/img/netmedex_graph_community_clusters.png" width="600" alt="Community Clusters">
   <br>
   <i>Figure 9: Automated community detection for functional clustering.</i>
 </p>
 
 <p align="center">
-  <img src="./docs/img/netmedex_graph_selection.png" width="800" alt="Graph Selection">
+  <img src="./docs/img/netmedex_graph_selection.png" width="600" alt="Graph Selection">
   <br>
   <i>Figure 10: Selecting a sub-network by holding the Shift key to isolate relevant nodes and edges as the base for hybridRAG to chat with.</i>
 </p>
@@ -153,31 +153,31 @@ The **Graph Panel** visualizes the co-mention/ semantic analyzed network, provid
 The **Chat Panel** provides the deep semantic layer, interpreting the graph using LLMs.
 
 <p align="center">
-  <img src="./docs/img/netmedex_chat_panel_v2.jpg" width="800" alt="Chat Panel">
+  <img src="./docs/img/netmedex_chat_panel_v2.jpg" width="300" alt="Chat Panel">
   <br>
   <i>Figure 11: Hybrid RAG Chat for natural language reasoning over the network.</i>
 </p>
 
 <p align="center">
-  <img src="./docs/img/netmedex_chat_layout_selection.png" width="800" alt="Chat Layout Selection">
+  <img src="./docs/img/netmedex_chat_layout_selection.png" width="600" alt="Chat Layout Selection">
   <br>
   <i>Figure 12(A): Press the "Analyze Selection" button to construct RAGs for communications with the selected sub-network.</i>
 </p>
 
 <p align="center">
-  <img src="./docs/img/netmedEx_chat_RAG.png" width="800" alt="RAG Processing">
+  <img src="./docs/img/netmedEx_chat_RAG.png" width="300" alt="RAG Processing">
   <br>
   <i>Figure 12(B): RAG generating to prepare the chat later.</i>
 </p>
 
 <p align="center">
-  <img src="./docs/img/netmedex_chat_history_panel.png" width="800" alt="Chat History Panel">
+  <img src="./docs/img/netmedex_chat_history_panel.png" width="600" alt="Chat History Panel">
   <br>
   <i>Figure 13: The Chat History panel for managing and reviewing previous discovery sessions.</i>
 </p>
 
 <p align="center">
-  <img src="./docs/img/netmedex_chat_table_mirna.png" width="800" alt="miRNA Relationship Table">
+  <img src="./docs/img/netmedex_chat_table_mirna.png" width="600" alt="miRNA Relationship Table">
   <br>
   <i>Figure 14: Tabular representation of semantic analysis results (e.g., miRNA relationships).</i>
 </p>
