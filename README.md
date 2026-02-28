@@ -100,7 +100,7 @@ Expand **Advanced Settings** to configure your LLM provider. This is a crucial f
 <p align="center">
   <img src="./docs/img/netmedex_advanced_settings_llm_dropdown.png" width="300" alt="LLM Dropdown Selection">
   <br>
-  <i>Figure 4: Selecting a specific model for local AI processing via the dropdown menu.</i>
+  <i>Figure 4: Selecting a specific model for local AI processing via the dropdown menu. If you run the NetMedEx Docker image and use the local LLM from the same machine, please fill the field of Base URL by "http://host.docker.internal:11434"  (ie, using olloma). If not, please follow the instructions of the LLM provider </i>
 </p>
 
 Users can also upload previously downloaded PubTator format files for re-analysis.
